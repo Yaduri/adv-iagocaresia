@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://adv-iagocaresia.pages.dev/sitemap.xml

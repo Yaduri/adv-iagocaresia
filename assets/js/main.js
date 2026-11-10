@@ -11,7 +11,14 @@ $$("[data-wa]").forEach((a) => {
 const nav = $("#nav");
 const progress = $("#progress");
 let lastY = 0;
+let ticking = false;
 function onScroll() {
+  if (ticking) return;
+  ticking = true;
+  requestAnimationFrame(update);
+}
+function update() {
+  ticking = false;
   const y = scrollY;
   nav.classList.toggle("scrolled", y > 30);
   nav.classList.toggle("hidden", y > lastY && y > 400 && !menu.classList.contains("open"));
@@ -113,4 +120,4 @@ tick();
 setInterval(tick, 30000);
 
 addEventListener("scroll", onScroll, { passive: true });
-onScroll();
+update();

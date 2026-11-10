@@ -12,12 +12,15 @@
 <meta property="og:locale" content="pt_BR">
 <meta property="og:title" content="Advocacia Caresia | Advogado em Tatuí/SP">
 <meta property="og:description" content="Direito Tributário, Cível e Trabalhista com rigor técnico e atendimento próximo. Presencial em Tatuí e online.">
-<meta property="og:image" content="https://adv-iagocaresia.pages.dev/assets/img/iago-retrato.jpg">
+<meta property="og:image" content="https://adv-iagocaresia.pages.dev/assets/img/og-image.jpg">
 <meta property="og:url" content="https://adv-iagocaresia.pages.dev/">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Inter+Tight:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/img/iago-retrato-640.webp" imagesrcset="assets/img/iago-retrato-480.webp 480w, assets/img/iago-retrato-640.webp 640w" imagesizes="(max-width: 960px) 26rem, 36vw" fetchpriority="high">
 <link rel="stylesheet" href="assets/css/styles.css">
 <script>document.documentElement.classList.replace('no-js','js')</script>
 <script type="application/ld+json">
@@ -30,7 +33,7 @@
   "telephone": "+55 15 98819-8826",
   "email": "iagocaresia@adv.oabsp.org.br",
   "url": "https://adv-iagocaresia.pages.dev/",
-  "image": "https://adv-iagocaresia.pages.dev/assets/img/iago-retrato.jpg",
+  "image": "https://adv-iagocaresia.pages.dev/assets/img/og-image.jpg",
   "address": {"@type": "PostalAddress", "streetAddress": "R. Santa Cruz, 1188, Centro", "addressLocality": "Tatuí", "addressRegion": "SP", "postalCode": "18275-130", "addressCountry": "BR"},
   "areaServed": ["Tatuí", "Sorocaba", "Itapetininga", "Boituva", "Cerquilho", "Cesário Lange", "Porto Feliz"],
   "knowsAbout": ["Direito Tributário", "Direito Cível", "Direito Trabalhista"],
@@ -47,6 +50,7 @@
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
     <symbol id="monogram" viewBox="0 0 64 64"><circle cx="32" cy="32" r="30.5" fill="none" stroke="#c99a52" stroke-opacity=".55"/><text x="32" y="43" text-anchor="middle" font-family="Cormorant Garamond,Georgia,serif" font-size="31" font-style="italic" font-weight="600" fill="#e6c68a">AC</text></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></symbol>
     <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /> <path d="m12 5 7 7-7 7" /></symbol>
     <symbol id="i-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14" /> <path d="m19 12-7 7-7-7" /></symbol>
     <symbol id="i-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6" /></symbol>
@@ -93,7 +97,7 @@
 <div class="menu" id="menu" aria-hidden="true">
   <div class="menu-top">
     <span class="brand-txt"><small>ADVOCACIA</small><b>CARESIA</b></span>
-    <button class="burger" id="close" aria-label="Fechar menu"><span style="background:none"></span></button>
+    <button class="burger is-close" id="close" aria-label="Fechar menu"><span></span></button>
   </div>
   <ol>
     <li><a href="#sobre">O escritório</a></li>
@@ -124,11 +128,11 @@
       <ul class="hero-meta reveal" style="--i:4">
         <li>Tributário · Cível · Trabalhista</li>
         <li>Presencial e online</li>
-        <li><span class="stars" aria-hidden="true">★★★★★</span> avaliações no Google</li>
+        <li><span class="stars" role="img" aria-label="5 estrelas"><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg></span> avaliações no Google</li>
       </ul>
     </div>
     <figure class="frame reveal" style="--i:2">
-      <img src="assets/img/iago-retrato.jpg" width="640" height="640" alt="Dr. Iago Caresia Rodrigues, advogado, de terno azul-marinho e gravata azul" fetchpriority="high">
+      <img src="assets/img/iago-retrato-640.webp" srcset="assets/img/iago-retrato-480.webp 480w, assets/img/iago-retrato-640.webp 640w" sizes="(max-width: 960px) 26rem, 36vw" width="640" height="640" alt="Dr. Iago Caresia Rodrigues, advogado, de terno azul-marinho e gravata azul" fetchpriority="high" decoding="async">
       <figcaption class="badge"><b>Especialista em Direito Tributário</b>MBA em Gestão Tributária · USP/ESALQ</figcaption>
     </figure>
   </div>
@@ -150,8 +154,8 @@
 <section class="sec dark tex" id="sobre">
   <div class="container about-grid">
     <div class="about-media reveal">
-      <img class="a" src="assets/img/iago-sentado-notebook.jpg" width="1049" height="1413" loading="lazy" alt="Dr. Iago Caresia analisando um caso em seu notebook, em sala com painéis de madeira">
-      <img class="b" src="assets/img/recepcao-parede-logo-ac.jpg" width="422" height="1282" loading="lazy" alt="Recepção do escritório com o monograma AC dourado e o nome Advocacia Caresia na parede">
+      <img class="a" src="assets/img/iago-sentado-notebook-640.webp" srcset="assets/img/iago-sentado-notebook-640.webp 640w, assets/img/iago-sentado-notebook-1049.webp 1049w" sizes="(max-width: 960px) 45vw, 260px" width="1049" height="1413" decoding="async" loading="lazy" alt="Dr. Iago Caresia analisando um caso em seu notebook, em sala com painéis de madeira">
+      <img class="b" src="assets/img/recepcao-parede-logo-ac-422.webp" width="422" height="1282" decoding="async" loading="lazy" alt="Recepção do escritório com o monograma AC dourado e o nome Advocacia Caresia na parede">
       <blockquote class="quote">“O direito não é um simples conceito, mas uma força viva.”<cite>Rudolf von Ihering</cite></blockquote>
     </div>
     <div class="about-txt">
@@ -172,7 +176,7 @@
 <!-- ESPECIALIZAÇÃO -->
 <section class="sec navy spec tex beam">
   <div class="container spec-grid">
-    <figure class="frame reveal"><img src="assets/img/trofeu-mba-usp.jpg" width="1440" height="1920" loading="lazy" alt="Troféu de conclusão do MBA USP/ESALQ em Gestão Tributária, ao lado da carteira da OAB"></figure>
+    <figure class="frame reveal"><img src="assets/img/trofeu-mba-usp-640.webp" srcset="assets/img/trofeu-mba-usp-640.webp 640w, assets/img/trofeu-mba-usp-960.webp 960w" sizes="(max-width: 960px) 22rem, 30vw" width="960" height="1280" decoding="async" loading="lazy" alt="Troféu de conclusão do MBA USP/ESALQ em Gestão Tributária, ao lado da carteira da OAB"></figure>
     <div class="spec-txt">
       <span class="eyebrow reveal">Especialização</span>
       <h2 class="reveal" style="--i:1">Conhecimento <em>tributário</em> aplicado ao seu caso.</h2>
@@ -306,7 +310,7 @@
       <div class="sec-head" style="margin:0">
         <span class="eyebrow reveal">05 — Avaliações</span>
         <h2 class="reveal" style="--i:1">O que dizem <em>nossos clientes</em>.</h2>
-        <div class="rating reveal" style="--i:2"><span class="stars" aria-hidden="true">★★★★★</span><a class="btn btn-line btn-sm" href="https://share.google/7V4HXExa1ye5XNJhX" target="_blank" rel="noopener">Ver todas no Google <svg aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+        <div class="rating reveal" style="--i:2"><span class="stars" role="img" aria-label="5 estrelas"><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg></span><a class="btn btn-line btn-sm" href="https://share.google/7V4HXExa1ye5XNJhX" target="_blank" rel="noopener">Ver todas no Google <svg aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
       </div>
       <div class="rev-ctrl">
         <button id="prev" aria-label="Avaliações anteriores"><svg aria-hidden="true"><use href="#i-left"/></svg></button>
@@ -314,11 +318,11 @@
       </div>
     </div>
     <div class="track" id="track" tabindex="0" aria-label="Depoimentos de clientes">
-      <article class="rev"><blockquote>“Ótimo advogado, conseguiu minha pensão depois que meu marido faleceu. É um homem de Deus.”</blockquote><footer><span class="av">A</span><span><b>Ana R.</b><span class="stars">★★★★★</span> · Google</span></footer></article>
-      <article class="rev"><blockquote>“Esse é fera, honesto, atencioso, paciencioso, um excelente advogado.”</blockquote><footer><span class="av">D</span><span><b>David O.</b><span class="stars">★★★★★</span> · Google</span></footer></article>
-      <article class="rev"><blockquote>“Recomendo os serviços: responsabilidade, ética, comprometimento, honestidade e respeito com o cliente são as qualidades do serviço prestado.”</blockquote><footer><span class="av">C</span><span><b>Cristiano R.</b><span class="stars">★★★★★</span> · Google</span></footer></article>
-      <article class="rev"><blockquote>“Advogado atencioso, competente, justo!”</blockquote><footer><span class="av">A</span><span><b>Ana Carolina R.</b><span class="stars">★★★★★</span> · Google</span></footer></article>
-      <article class="rev"><blockquote>“Muito atencioso, educado e excelente profissional.”</blockquote><footer><span class="av">G</span><span><b>Cliente</b><span class="stars">★★★★★</span> · Google</span></footer></article>
+      <article class="rev"><blockquote>“Ótimo advogado, conseguiu minha pensão depois que meu marido faleceu. É um homem de Deus.”</blockquote><footer><span class="av">A</span><span><b>Ana R.</b><span class="stars" role="img" aria-label="5 estrelas"><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg></span> · Google</span></footer></article>
+      <article class="rev"><blockquote>“Esse é fera, honesto, atencioso, paciencioso, um excelente advogado.”</blockquote><footer><span class="av">D</span><span><b>David O.</b><span class="stars" role="img" aria-label="5 estrelas"><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg></span> · Google</span></footer></article>
+      <article class="rev"><blockquote>“Recomendo os serviços: responsabilidade, ética, comprometimento, honestidade e respeito com o cliente são as qualidades do serviço prestado.”</blockquote><footer><span class="av">C</span><span><b>Cristiano R.</b><span class="stars" role="img" aria-label="5 estrelas"><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg></span> · Google</span></footer></article>
+      <article class="rev"><blockquote>“Advogado atencioso, competente, justo!”</blockquote><footer><span class="av">A</span><span><b>Ana Carolina R.</b><span class="stars" role="img" aria-label="5 estrelas"><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg></span> · Google</span></footer></article>
+      <article class="rev"><blockquote>“Muito atencioso, educado e excelente profissional.”</blockquote><footer><span class="av">G</span><span><b>Cliente</b><span class="stars" role="img" aria-label="5 estrelas"><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg></span> · Google</span></footer></article>
     </div>
     <p class="note">Depoimentos espontâneos publicados por clientes no Google. Resultados variam conforme cada caso.</p>
   </div>
@@ -349,7 +353,7 @@
     <div class="ct-info">
       <span class="eyebrow reveal">07 — Contato</span>
       <h2 class="reveal" style="--i:1">Venha nos <em>visitar</em> ou fale online.</h2>
-      <figure class="frame reveal" style="--i:2"><img src="assets/img/fachada-escritorio.jpg" width="1440" height="1471" loading="lazy" alt="Fachada do escritório Advocacia Caresia, em Tatuí"></figure>
+      <figure class="frame reveal" style="--i:2"><img src="assets/img/fachada-escritorio-640.webp" srcset="assets/img/fachada-escritorio-640.webp 640w, assets/img/fachada-escritorio-1024.webp 1024w" sizes="(max-width: 960px) 92vw, 560px" width="1024" height="1046" decoding="async" loading="lazy" alt="Fachada do escritório Advocacia Caresia, em Tatuí"></figure>
     </div>
     <div class="reveal" style="--i:2">
       <div class="map"><iframe title="Mapa: Advocacia Caresia, R. Santa Cruz, 1188, Tatuí/SP" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=R.+Santa+Cruz,+1188,+Centro,+Tatu%C3%AD,+SP&amp;output=embed"></iframe></div>
@@ -376,10 +380,10 @@
         <a class="brand" href="#inicio"><svg aria-hidden="true"><use href="#monogram"/></svg><span class="brand-txt"><small>ADVOCACIA</small><b>CARESIA</b></span></a>
         <p>Direito Tributário, Cível e Trabalhista, com técnica e atendimento próximo em Tatuí e região.</p>
       </div>
-      <nav aria-label="Rodapé"><h4>Navegação</h4><ul><li><a href="#sobre">O escritório</a></li><li><a href="#areas">Áreas de atuação</a></li><li><a href="#metodo">Como funciona</a></li><li><a href="#avaliacoes">Avaliações</a></li><li><a href="#contato">Contato</a></li></ul></nav>
-      <div><h4>Áreas</h4><ul><li>Direito Tributário</li><li>Direito Cível</li><li>Direito Trabalhista</li></ul></div>
+      <nav aria-label="Rodapé"><p class="ft-title">Navegação</p><ul><li><a href="#sobre">O escritório</a></li><li><a href="#areas">Áreas de atuação</a></li><li><a href="#metodo">Como funciona</a></li><li><a href="#avaliacoes">Avaliações</a></li><li><a href="#contato">Contato</a></li></ul></nav>
+      <div><p class="ft-title">Áreas</p><ul><li>Direito Tributário</li><li>Direito Cível</li><li>Direito Trabalhista</li></ul></div>
       <div>
-        <h4>Atendimento</h4>
+        <p class="ft-title">Atendimento</p>
         <span class="status" id="status"><i></i><span id="status-txt">Verificando…</span></span>
         <div class="clock" id="clock" aria-hidden="true">--:--</div>
         <p style="font-size:.82rem;color:var(--muted-dark);margin-top:.4rem">Seg. a sex., 11h–17h (horário de Brasília)</p>
